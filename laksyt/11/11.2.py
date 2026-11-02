@@ -9,7 +9,7 @@ class Auto:
         self.nopeus = max(0, min(self.huippunopeus, self.nopeus + muutos))
 
     def kulje(self, tunnit):
-        """matka = nopeus * aika"""
+
         self.kuljettu_matka += self.nopeus * tunnit
 
 
