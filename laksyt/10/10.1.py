@@ -19,7 +19,6 @@ class Lehti(Julkaisu):
     def tulosta_tiedot(self):
         print(f"Lehti: {self.nimi}, Päätoimittaja: {self.paatoimittaja}")
 
-# Pääohjelma
 aku_ankka = Lehti("Aku Ankka", "Aki Hyppä")
 hytti_6 = Kirja("Hytti n:o 6", "Rosa Liksom", 200)
 

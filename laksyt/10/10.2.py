@@ -29,11 +29,9 @@ class Talo:
         self.hissit = [Hissi(alin, ylin) for _ in range(hissien_lkm)]
 
     def aja_hissia(self, hissin_numero, kohdekerros):
-        # Hissien numerointi alkaa ykkösestä
+
         self.hissit[hissin_numero - 1].siirry_kerrokseen(kohdekerros)
 
-
-# Pääohjelma
 talo = Talo(1, 6, 3)
 talo.aja_hissia(2, 4)
 talo.aja_hissia(1, 3)
